@@ -72,4 +72,4 @@ CIS-165-B030
     g++ -std=c++17 -Wall -Wextra game_time.cpp -o game_time
     ./game_time
 
-[Optional: one line saying you can also paste the code into OnlineGDB and press Run.]
+[Optional: You can also paste the code into OnlineGDB and press Run.]
