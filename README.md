@@ -56,13 +56,24 @@ CIS-165-B030
 
 ### How / and % convert minutes
 
-- '/' is used to do the whole division, while '%' does the division, but only gives what cannot be divided into a whole number. With these two we can convert the minutes into hours as wholly as we can and then be able to calculate the remainding minutes seperately.
+- '/' is used to do the whole division, while '%' does the division, but only gives what cannot be divided into a whole number. With these two we can convert the minutes into hours as wholly as we can and then be able to calculate the remainding minutes seperately. Storing it like so allows you to trace it back and see if a calculation is correct.
 
 ### Trace of the assigned values
-[Go variable by variable: what each variable holds after its line runs, starting from 78 and 144 and ending with the difference.]
 
+    - MIN_PER_HOUR = 60
+    - level_1_min = 78
+    - level_2_min = 144
+    - level_1_hours = 1
+    - level_1_remainder = 18
+    - level_2_hours = 2
+    - level_2_remainder = 24
+    - min_difference = 66
+    - difference_hours = 1
+    - difference_remainder = 6
+    
 ### Why I store results before cout
-[In my own words: why I calculate first and print the variable instead of putting the formula inside cout.]
+
+The reason why I calculated the result first and then printed the variable instead of putting the formula inside cout, is for clearer understanding of the code and due to the inability to reuse the result for later additions to the program requiring without having to either copy from it or just making it a variable eventually.
 
 ## How to Compile and Run
 
